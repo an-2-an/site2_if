@@ -6,27 +6,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ph. and E. Faculty Site</title>
     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <img src="img/logo.png" width="60">
-    <h1>
-        Physics and Engineering Faculty Site
-    </h1>
-    <p>Foundry Technology and Equipment;</p>
-    <p>Welding Technology and Equipment;</p>
-    <p>Physical Material Science.</p>
+    <div class="container py-4">
+        <img src="img/logo.png" width="60">
+        <h1 class="text-center text-success">
+            Physics and Engineering Faculty Site
+        </h1>
 
-    <input type="text" id="input-name" value="Anton" placeholder="input your name">
-    <br>
-    <button id="btn-1">
-        Show Message
-    </button>
-    
+        <div class="row mt-5 mb-2">
+            <div class="col-4 text-center p-3">
+                <img src="img/1.jpg" class="w-100 h-50 object-fit-cover custom-shadow">
+                <p class="fw-bold fs-5">Foundry Technology and Equipment</p>
+                <p class="text-secondary text-start">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe suscipit velit soluta perspiciatis
+                    illum laboriosam quisquam quibusdam harum ullam eligendi fugiat quod aliquam odio fuga, rerum minima
+                    dolorum cum recusandae?
+                </p>
+            </div>
+            <div class="col-4 text-center p-3">
+                <img src="img/2.jpeg" class="w-100 h-50 object-fit-cover custom-shadow">
+                <p class="fw-bold fs-5">Welding Technology and Equipment</p>
+                <p class="text-secondary text-start">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe suscipit velit soluta perspiciatis
+                    illum laboriosam quisquam quibusdam harum ullam eligendi fugiat quod aliquam odio fuga, rerum minima
+                    dolorum cum recusandae?
+                </p>
+            </div>
+            <div class="col-4 text-center p-3">
+                <img src="img/3.jpg" class="w-100 h-50 object-fit-cover custom-shadow">
+                <p class="fw-bold fs-5">Physical Material Science</p>
+                <p class="text-secondary text-start">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe suscipit velit soluta perspiciatis
+                    illum laboriosam quisquam quibusdam harum ullam eligendi fugiat quod aliquam odio fuga, rerum minima
+                    dolorum cum recusandae?
+                </p>
+            </div>
+        </div>
+
+
+
+        <div class="w-25 mt-4">
+            <input type="text" id="input-name" value="Anton" placeholder="input your name" class="form-control">
+            <br>
+            <button id="btn-1" class="btn btn-success">
+                Show Message
+            </button>
+        </div>
+    </div>
+
+
+
+
 
     <script src="js/script1.js"></script>
-    
+
 </body>
 
 </html>
